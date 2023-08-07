@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Neo icon/风格化图标/基础常用/目标管理 = sty-target </title>
+    <defs>
+        <linearGradient x1="0%" y1="-18.568715%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C9DFFF" offset="0%"></stop>
+            <stop stop-color="#75A5F3" offset="100%"></stop>
+        </linearGradient>
+        <path d="M29,44 C31.7614237,44 34,46.2385763 34,49 L34,53 C34,55.7614237 31.7614237,58 29,58 C26.2385763,58 24,55.7614237 24,53 L24,49 C24,46.2385763 26.2385763,44 29,44 Z M9,24 C11.7614237,24 14,26.2385763 14,29 C14,31.7614237 11.7614237,34 9,34 L5,34 C2.23857625,34 0,31.7614237 0,29 C0,26.2385763 2.23857625,24 5,24 L9,24 Z M53,24 C55.7614237,24 58,26.2385763 58,29 C58,31.7614237 55.7614237,34 53,34 L49,34 C46.2385763,34 44,31.7614237 44,29 C44,26.2385763 46.2385763,24 49,24 L53,24 Z M29,0 C31.7614237,-5.07265313e-16 34,2.23857625 34,5 L34,9 C34,11.7614237 31.7614237,14 29,14 C26.2385763,14 24,11.7614237 24,9 L24,5 C24,2.23857625 26.2385763,5.07265313e-16 29,0 Z" id="path-2"></path>
+        <filter x="-12.1%" y="-8.6%" width="124.1%" height="124.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.694819455   0 0 0 0 0.825867571   0 0 0 0 1  0 0 0 0.377836641 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="6.68981138%" y1="0%" x2="91.9157591%" y2="94.1757658%" id="linearGradient-4">
+            <stop stop-color="#3492D8" offset="0%"></stop>
+            <stop stop-color="#3C5AF1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M29,8 C40.5979797,8 50,17.4020203 50,29 C50,40.5979797 40.5979797,50 29,50 C17.4020203,50 8,40.5979797 8,29 C8,17.4020203 17.4020203,8 29,8 Z M29,20 C24.0294373,20 20,24.0294373 20,29 C20,33.9705627 24.0294373,38 29,38 C33.9705627,38 38,33.9705627 38,29 C38,24.0294373 33.9705627,20 29,20 Z" id="path-5"></path>
+        <filter x="-60.7%" y="-46.4%" width="221.4%" height="221.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.223529412   0 0 0 0 0.329581448   0 0 0 0 1  0 0 0 0.255908779 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Neo-icon/风格化图标/基础常用/目标管理-=-sty-target-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(7.000000, 7.000000)">
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>
