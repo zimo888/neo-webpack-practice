@@ -1,9 +1,9 @@
 {
-    "name": "class1",
+    "name": "class2",
     "version": "1.0.0",
-    "description": "webpack 基本配置练习",
+    "description": "webpack build to sdk",
     "scripts": {
-        "start":""
+        "build":""
     },
     "dependencies": {
         "react":"^18.2.0",
