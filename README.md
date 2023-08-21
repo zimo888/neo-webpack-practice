@@ -31,7 +31,7 @@ webpack 练习
 0. 熟悉 entry 常用的单入口和多入口两种用法。
 1. 熟悉 output 常用配置： path、filename、library、libraryTarget、 publicPath、assetModuleFilename
    熟悉 动态publicPath 配置方式
-2. 能够正确把项目打包成 sdk, 附带typescript
+2. 能够正确把项目打包成 sdk, 同时生成typescript dts 文件。
 
 练习要求：
 
@@ -39,3 +39,21 @@ webpack 练习
 1. output的 path设置为 build,输出为class2 的 umd 模块。
 2. 代码输出成一个文件。
 3. 使用tsc 生成d.ts 类型文件。
+
+# class3 正确生成es、lib
+
+练习目的：
+
+打包成像antd 一样的组件包， 由 es、lib 组成。
+
+0. 打包产物为 es、lib、 且生成d.ts 类型文件
+1. 转换代码中的 less、sass 为css ，并修改路径
+2. 学会使用 gulp, [typescript api](https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API)
+3. 熟练使用node 
+
+练习要求：
+
+0. 使用 [typescript api](https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API) 编译代码
+1. 使用 gulp-sass，sass gulp-less 处理代码中的样式
+2. 输出es、lib
+
