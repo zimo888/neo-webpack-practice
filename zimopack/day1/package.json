@@ -1,0 +1,8 @@
+{
+    "name":"zimopack",
+    "version":"1.0.0",
+    "main":"index.js",
+    "bin": {
+        "zimopack": "index.js"
+    }
+}
